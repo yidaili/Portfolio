@@ -1,4 +1,4 @@
-# DVD-Management-Program
+# DVD Management Program
 
 # 개요
 - 해당 프로그램은 DVD 관리 프로그램으로 고객관리, DVD관리를 전산으로 관리가 가능하도록 구성 되어있다.
