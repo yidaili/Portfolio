@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="72eca9f5c7d243f993812b4a6b2a6ff5" Name="Diagram1">
+        <EntityTypeShape EntityType="RestaurantModel.City" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.FoodType" Width="1.5" PointX="3" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.Reservation" Width="1.5" PointX="7.5" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.State" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.Store" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantModel.sysdiagram" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="RestaurantModel.FK_City_State" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK_FoodStoreInfo_CityInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK_FoodStoreInfo_FoodTypeInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK_Reservation_FoodStoreInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="RestaurantModel.FK_FoodStoreInfo_StateInfo" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

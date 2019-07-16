@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9826664C-4AE5-4CD8-9E63-864218C89921}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UserControls</RootNamespace>
+    <AssemblyName>UserControls</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="funcsForPivot.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ucsChooseLocation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucsChooseLocation.Designer.cs">
+      <DependentUpon>ucsChooseLocation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uscCheckReservationGrid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uscCheckReservationGrid.Designer.cs">
+      <DependentUpon>uscCheckReservationGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uscReservationCheckBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uscReservationCheckBox.Designer.cs">
+      <DependentUpon>uscReservationCheckBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uscResultGrid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uscResultGrid.Designer.cs">
+      <DependentUpon>uscResultGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uscSearchBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uscSearchBox.Designer.cs">
+      <DependentUpon>uscSearchBox.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucsChooseLocation.resx">
+      <DependentUpon>ucsChooseLocation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uscCheckReservationGrid.resx">
+      <DependentUpon>uscCheckReservationGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uscReservationCheckBox.resx">
+      <DependentUpon>uscReservationCheckBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uscResultGrid.resx">
+      <DependentUpon>uscResultGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uscSearchBox.resx">
+      <DependentUpon>uscSearchBox.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\RestaurantDB.Reservation.datasource" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\RestaurantDB.ResultFormat.CityListFormat.datasource" />
+    <None Include="Resources\Busan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chungbuk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chungnam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Daegu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Daejeon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gangwon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gwangju.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gyeongbuk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gyeonggi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gyeongnam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Incheon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jeju.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jeonbuk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jeonnam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sejong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Seoul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ulsan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Properties\DataSources\RestaurantDB.City.datasource" />
+    <None Include="Properties\DataSources\UserControls.ResultFormats.SearchResultData.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RestaurantDB\RestaurantDB.csproj">
+      <Project>{9657575b-571d-4135-83b6-5cc485335a13}</Project>
+      <Name>RestaurantDB</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

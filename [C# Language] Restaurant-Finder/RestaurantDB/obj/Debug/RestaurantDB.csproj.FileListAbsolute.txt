@@ -1,0 +1,14 @@
+C:\Users\301-14\Downloads\WinFormProject-master\WinFormProject-master\RestaurantDB\bin\Debug\RestaurantDB.dll.config
+C:\Users\301-14\Downloads\WinFormProject-master\WinFormProject-master\RestaurantDB\bin\Debug\RestaurantDB.dll
+C:\Users\301-14\Downloads\WinFormProject-master\WinFormProject-master\RestaurantDB\bin\Debug\RestaurantDB.pdb
+C:\Users\301-14\Downloads\WinFormProject-master\WinFormProject-master\RestaurantDB\bin\Debug\EntityFramework.dll
+C:\Users\301-14\Downloads\WinFormProject-master\WinFormProject-master\RestaurantDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\301-14\Downloads\WinFormProject-master\WinFormProject-master\RestaurantDB\bin\Debug\EntityFramework.xml
+C:\Users\301-14\Downloads\WinFormProject-master\WinFormProject-master\RestaurantDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\301-14\Downloads\WinFormProject-master\WinFormProject-master\RestaurantDB\bin\Debug\ko\EntityFramework.resources.dll
+C:\Users\301-14\Downloads\WinFormProject-master\WinFormProject-master\RestaurantDB\bin\Debug\ko\EntityFramework.SqlServer.resources.dll
+C:\Users\301-14\Downloads\WinFormProject-master\WinFormProject-master\RestaurantDB\obj\Debug\RestaurantDB.csprojAssemblyReference.cache
+C:\Users\301-14\Downloads\WinFormProject-master\WinFormProject-master\RestaurantDB\obj\Debug\RestaurantDB.csproj.CoreCompileInputs.cache
+C:\Users\301-14\Downloads\WinFormProject-master\WinFormProject-master\RestaurantDB\obj\Debug\RestaurantDB.csproj.CopyComplete
+C:\Users\301-14\Downloads\WinFormProject-master\WinFormProject-master\RestaurantDB\obj\Debug\RestaurantDB.dll
+C:\Users\301-14\Downloads\WinFormProject-master\WinFormProject-master\RestaurantDB\obj\Debug\RestaurantDB.pdb
