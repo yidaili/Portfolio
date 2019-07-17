@@ -10,14 +10,6 @@
 - 음식점을 더블클릭하여 예약
 - 메뉴바에서 예약한 음식점 확인
 
-# 개발환경
-- 운영체제 : Windows 7 Professional K
-- 컴파일 버전(언어) : C#
-- 프로세서 : Intel(R) Core(TM) i7-4790 CPU ＠ 3.60GHz
-- 메모리 : 8.00GB
-- IDE : Microsoft Visual Studio Community 2017 15.9.6
-
-
 # 세부 기능 확인
 
 ## 1. 맛집 검색 기능
@@ -33,3 +25,13 @@
 ## 3. 예약 확인 및 예약 취소 기능
 ![Restaurant Finder pic3](https://user-images.githubusercontent.com/49540920/61341991-9d045600-a883-11e9-9a65-a8b69d614ada.png)
 ### 이때까지 예약을 한 이력을 보여주고 예약정보를 수정할 수 있거나 취소를 할 수 있습니다.
+
+
+# 개발환경
+- 운영체제 : Windows 7 Professional K
+- 컴파일 버전(언어) : C#
+- 프로세서 : Intel(R) Core(TM) i7-4790 CPU ＠ 3.60GHz
+- 메모리 : 8.00GB
+- IDE : Microsoft Visual Studio Community 2017 15.9.6
+
+
