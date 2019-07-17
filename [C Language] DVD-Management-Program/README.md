@@ -12,6 +12,7 @@
 - DVD 등록/조회/대여/반납/대여이력조회
 - 고객대여이력조회
 
+![실행화면](https://user-images.githubusercontent.com/50133638/61349158-14df7a00-a89e-11e9-9dee-be21b54ebcd6.png)
 
 # 개발환경
 - 운영체제 : Windows 7 Professional K
