@@ -13,7 +13,7 @@
 - 계좌조회
 ![순서도](https://user-images.githubusercontent.com/50133638/61387573-59e0cc00-a8f1-11e9-98ec-539724c0551c.png)
 
-# 클래스 
+# 클래스 다이어그램
 ![클래스 다이어그램](https://user-images.githubusercontent.com/50133638/61387576-5a796280-a8f1-11e9-938b-94748399641c.png)
 
 # 개발환경
