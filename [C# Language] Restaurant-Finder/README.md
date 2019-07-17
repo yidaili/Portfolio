@@ -29,7 +29,7 @@
 
 # 개발환경
 - 운영체제 : Windows 7 Professional K
-- 컴파일 버전(언어) : C#
+- 컴파일 버전(언어) : Roslyn
 - 프로세서 : Intel(R) Core(TM) i7-4790 CPU ＠ 3.60GHz
 - 메모리 : 8.00GB
 - IDE : Microsoft Visual Studio Community 2017 15.9.6
